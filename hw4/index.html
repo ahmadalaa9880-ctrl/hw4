@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Homework</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eee;
+            margin: 50px;
+        }
+
+        .content {
+            margin-bottom: 50px;
+        }
+
+        
+        .login-container {
+            width: 700px;
+            height: 350px;
+            margin: auto;
+            background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .login-box {
+            width: 220px;
+            background: rgba(255,255,255,0.3);
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .login-box h2 {
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .login-box input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            background: rgba(255,255,255,0.4);
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background: #4d4d4d;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-box button:hover {
+            background: black;
+        }
+
+        .remember {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <p><strong>Subject:</strong> CSS</p>
+
+       
+       
+    </div>
+
+    
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <h2>Account Login</h2>
+
+            <input type="text" placeholder="Username">
+
+            <input type="password" placeholder="Password">
+
+            <button>LOGIN</button>
+
+            <div class="remember">
+                <input type="checkbox">
+                remember me
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
